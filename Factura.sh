@@ -1,6 +1,6 @@
 #!/bin/bash
 # Nested if statements
-if [ $1 -gt 18 ]
+if [ $1 == 'Plato Fuerte' ]
 then
     echo 'Eres Adulto'.
     if (( $1 % 2 == 0 ))
